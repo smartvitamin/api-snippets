@@ -10,7 +10,10 @@ def sms_reply():
     resp = MessagingResponse()
 
     # Add a message
-    resp.message("The Robots are coming! Head for the hills!")
+    resp.message("Thanks for messaging back. If you have a question please email me at olivia@servicepetverfied.com. I look forward to assiting you with your pet's ESA needs.")
+
+     # Add a message
+    resp.message("I won't text message very often but if you would like to be removed reply STOP. Msg@Data Rates May Apply")
 
     return str(resp)
 
